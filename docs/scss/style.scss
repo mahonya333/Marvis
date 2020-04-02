@@ -50,7 +50,7 @@
     @include breakpoint($tablet-width) {
       line-height: 16px;
       font-size: 14px;
-      margin: 0 0 8px 0;
+      margin: 0 0 8px 10px;
     }
   }
   &__benefits {
@@ -277,8 +277,7 @@
       @include breakpoint($tablet-width) {
         left: -2.7%;
         top: -21.7%;
-        max-width: 14.2%;
-        width: 100%;
+        width: 60px;
       }
     }
     .img-mocap {
@@ -288,12 +287,12 @@
       @include breakpoint($tablet-width) {
         right: -11.5%;
         top: -31%;
-        max-width: 33%;
+        width: 85px;
       }
       @include breakpoint($mobile-width) {
-        right: -4.5%;
-        top: -24%;
-        max-width: 26%;
+        right: -12px;
+        top: -16px;
+        width: 60px;
       }
     }
     &-discount {
