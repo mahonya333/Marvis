@@ -1,0 +1,24 @@
+/*
+    Пример подключения шрифта woff/woff2
+    https://css-tricks.com/snippets/css/using-font-face/
+
+    @include fontFace('ProximaNova', '../fonts/ProximaNova-Regular/ProximaNova-Regular');
+*/
+
+/* @include fontFace('ProximaNova', '../fonts/ProximaNova-Regular/ProximaNova-Regular');
+@include fontFace('Roboto', '../fonts/Roboto-Regular/Roboto-Regular'); */
+
+
+@include fontFace('BerlingskeSerif-BoldItalic', '../fonts/BerlingskeSerif-Blk/BerlingskeSerif-BoldItalic');
+@include fontFace('BerlingskeSerif-ExtBdIta', '../fonts/BerlingskeSerif-Blk/BerlingskeSerif-ExtBdIta');
+
+
+@include fontFace('GothamPro', '../fonts/GothamPro/GothamPro');
+@include fontFace('GothamPro-Medium', '../fonts/GothamPro/GothamPro-Medium');
+@include fontFace('GothamPro-Bold', '../fonts/GothamPro/GothamPro-Bold');
+
+
+
+@include fontFace('MuseoSans-100', '../fonts/MuseoSans/MuseoSansCyrl-100');
+@include fontFace('MuseoSans-300', '../fonts/MuseoSans/MuseoSansCyrl-300');
+@include fontFace('MuseoSans-500', '../fonts/MuseoSans/MuseoSansCyrl-500');

@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-ExtraBold.eot');
+    src: local('Berlingske Serif Extra Bold'), local('BerlingskeSerif-ExtraBold'),
+        url('BerlingskeSerif-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-ExtraBold.woff2') format('woff2'),
+        url('BerlingskeSerif-ExtraBold.woff') format('woff'),
+        url('BerlingskeSerif-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Md.eot');
+    src: local('BerlingskeSerif-Md'),
+        url('BerlingskeSerif-Md.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Md.woff2') format('woff2'),
+        url('BerlingskeSerif-Md.woff') format('woff'),
+        url('BerlingskeSerif-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-LtItalic.eot');
+    src: local('BerlingskeSerif-LtItalic'),
+        url('BerlingskeSerif-LtItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-LtItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-LtItalic.woff') format('woff'),
+        url('BerlingskeSerif-LtItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-BoldItalic.eot');
+    src: local('Berlingske Serif Bold Italic'), local('BerlingskeSerif-BoldItalic'),
+        url('BerlingskeSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-BoldItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-BoldItalic.woff') format('woff'),
+        url('BerlingskeSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-ExtBdIta.eot');
+    src: local('Berlingske Serif ExtBd Ita'), local('BerlingskeSerif-ExtBdIta'),
+        url('BerlingskeSerif-ExtBdIta.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-ExtBdIta.woff2') format('woff2'),
+        url('BerlingskeSerif-ExtBdIta.woff') format('woff'),
+        url('BerlingskeSerif-ExtBdIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-SemBdIta.eot');
+    src: local('Berlingske Serif SemBd Ita'), local('BerlingskeSerif-SemBdIta'),
+        url('BerlingskeSerif-SemBdIta.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-SemBdIta.woff2') format('woff2'),
+        url('BerlingskeSerif-SemBdIta.woff') format('woff'),
+        url('BerlingskeSerif-SemBdIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-SemiBold.eot');
+    src: local('Berlingske Serif Semi Bold'), local('BerlingskeSerif-SemiBold'),
+        url('BerlingskeSerif-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-SemiBold.woff2') format('woff2'),
+        url('BerlingskeSerif-SemiBold.woff') format('woff'),
+        url('BerlingskeSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Lt.eot');
+    src: local('BerlingskeSerif-Lt'),
+        url('BerlingskeSerif-Lt.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Lt.woff2') format('woff2'),
+        url('BerlingskeSerif-Lt.woff') format('woff'),
+        url('BerlingskeSerif-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Italic.eot');
+    src: local('Berlingske Serif Italic'), local('BerlingskeSerif-Italic'),
+        url('BerlingskeSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Italic.woff2') format('woff2'),
+        url('BerlingskeSerif-Italic.woff') format('woff'),
+        url('BerlingskeSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Regular.eot');
+    src: local('Berlingske Serif Regular'), local('BerlingskeSerif-Regular'),
+        url('BerlingskeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Regular.woff2') format('woff2'),
+        url('BerlingskeSerif-Regular.woff') format('woff'),
+        url('BerlingskeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Bold.eot');
+    src: local('Berlingske Serif Bold'), local('BerlingskeSerif-Bold'),
+        url('BerlingskeSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Bold.woff2') format('woff2'),
+        url('BerlingskeSerif-Bold.woff') format('woff'),
+        url('BerlingskeSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-MdItalic.eot');
+    src: local('BerlingskeSerif-MdItalic'),
+        url('BerlingskeSerif-MdItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-MdItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-MdItalic.woff') format('woff'),
+        url('BerlingskeSerif-MdItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-BlkItalic.eot');
+    src: local('BerlingskeSerif-BlkItalic'),
+        url('BerlingskeSerif-BlkItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-BlkItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-BlkItalic.woff') format('woff'),
+        url('BerlingskeSerif-BlkItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Blk.eot');
+    src: local('BerlingskeSerif-Blk'),
+        url('BerlingskeSerif-Blk.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Blk.woff2') format('woff2'),
+        url('BerlingskeSerif-Blk.woff') format('woff'),
+        url('BerlingskeSerif-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

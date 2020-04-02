@@ -1,0 +1,42 @@
+$color-black: #000000;
+$color-white: #ffffff;
+$color-light-gray: #585858;
+$color-light-black: #282828;
+$color-lighter-black: #262626;
+$color-red: #d5132a;
+$color-cherry: #b02021;
+$color-green: #00af47;
+
+
+
+
+$fonts-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+"Segoe UI Symbol";
+$fonts-default-serif: "Times New Roman", serif;
+
+
+
+
+$berlin-bold-italic: "BerlingskeSerif-BoldItalic", $fonts-default-serif;/* Подключаем по ситуации шрифт с дизайна */
+$berlin-EXbold-italic: "BerlingskeSerif-ExtBdIta", $fonts-default-serif;/* Подключаем по ситуации шрифт с дизайна */
+
+$gp-regular: "GothamPro", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
+$gp-medium: "GothamPro-Medium" $fonts-default;
+$gp-bold: "GothamPro-Bold" $fonts-default;
+
+$ms-100: "MuseoSans-100", $fonts-default;
+$ms-300: "MuseoSans-300", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
+$ms-500: "MuseoSans-500", $fonts-default;
+
+
+  
+
+
+$container-width: 75VW;
+$min-width: 320px;
+
+
+$laptop-width: 1179px;
+$tablet-width: 1023px;
+$mobile-width: 767px;
+$mobile-width-small: 375px;

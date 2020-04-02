@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  width: 100%;
+  min-width: $min-width;
+  margin: 0;
+  padding: 0;
+  font-family: $gp-regular; /* Подключаем по ситуации шрифт с дизайна */
+  /*     color: $color-main; */ /* Подключаем по ситуации основной цвет с дизайна */
+  background-color: $color-white;
+}
+body {
+  line-height: 1.5;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+label {
+  cursor: pointer;
+  user-select: none;
+}
+textarea {
+  resize: vertical;
+}
+ul {
+  @include list-reset;
+}
+
+input[placeholder] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: $container-width;
+  padding-left: 1.6vw;
+  padding-right: 1.6vw;
+  @include breakpoint($tablet-width) {
+  }
+
+  @include breakpoint($mobile-width) {
+  }
+}
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: $gp-regular;
+  font-size: 1.6vw;
+  min-height: 100vh;
+}
+
+.site-content {
+  position: relative;
+  flex: 1 0 auto;
+}
+
+.bg-cover {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
