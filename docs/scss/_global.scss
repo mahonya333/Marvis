@@ -68,6 +68,9 @@ input[placeholder] {
   padding-left: 1.6vw;
   padding-right: 1.6vw;
   @include breakpoint($tablet-width) {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1200px;
   }
 
   @include breakpoint($mobile-width) {
@@ -79,6 +82,10 @@ input[placeholder] {
   font-family: $gp-regular;
   font-size: 1.6vw;
   min-height: 100vh;
+  @include breakpoint($tablet-width) {
+    font-size: 1.6px;
+    min-height: 100%;
+  }
 }
 
 .site-content {

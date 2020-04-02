@@ -7,6 +7,7 @@ $(function () {
         prevArrow: '<button type="button" class="slick-arrow slick-prev"><img src="img/arrow-left.png" alt="left"></button>',
         nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="img/arrow-right.png" alt="right"></button>',
         infinite: false,
+        fade: true,
     });
     $(".portfolio-slider.slider-jalousie").on('afterChange', function (event, slick, currentSlide) {
         $("#jalousie__current-slide").text(currentSlide + 1);
