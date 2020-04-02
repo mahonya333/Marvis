@@ -116,7 +116,7 @@
     padding-top: 1vw;
     padding-bottom: 3.25vw;
     .section-col {
-      width: 50vw;
+      width: 50%;
     }
   }
 }
@@ -282,7 +282,7 @@
 }
 
 .portfolio-slider {
-  width: 31.81vw;
+  
   &__wrapper {
     position: relative;
   }
@@ -298,7 +298,7 @@
     background-repeat: no-repeat;
   }
   &__item {
-    width: 100%;
+    width: 31.81vw;
     height: 27.56vw;
   }
   .slick-arrow {
