@@ -57,51 +57,51 @@
     display: flex;
     flex-direction: column;
     max-width: 22.5vw; /* 360px */
-    padding-left: 1.75vw; /* 28px */
+    margin-left: 1.75vw; /* 28px */
     @include breakpoint($tablet-width) {
       max-width: 360px;
-      padding-left: 28px;
+      margin-left: 28px;
     }
     @include breakpoint($mobile-width) {
       padding-top: 20px;
-      padding-left: 0;
+      margin-left: 0;
       width: 100%;
     }
-    &-inner {
-      display: flex;
+  }
+  &__benefits-inner {
+    display: flex;
+  }
+  &__benefits-item {
+    display: flex;
+    align-items: center;
+    @include breakpoint($tablet-width) {
+      width: 100%;
     }
-    &-item {
-      display: flex;
-      align-items: center;
+    & + .header-main__benefits-item {
+      margin-left: 1.375vw; /* 22px */
       @include breakpoint($tablet-width) {
-        width: 100%;
-      }
-      & + .header-main__benefits-item {
-        margin-left: 1.375vw; /* 22px */
-        @include breakpoint($tablet-width) {
-          margin-left: 22px;
-        }
-      }
-    }
-    &-img {
-      margin-right: 0.5vw; /* 8px */
-      width: 2vw; /* 32px */
-      @include breakpoint($tablet-width) {
-        margin-right: 8px;
-        max-width: 32px;
-        width: 100%;
+        margin-left: 22px;
       }
     }
-    &-text {
-      font-family: $ms-500;
-      color: $color-light-black;
-      font-size: 0.75vw; /* 12px */
-      line-height: 1vw; /* 16px */
-      font-weight: 500;
-      @include breakpoint($tablet-width) {
-        font-size: 12px;
-        line-height: 16px;
-      }
+  }
+  &__benefits-img {
+    margin-right: 0.5vw; /* 8px */
+    width: 2vw; /* 32px */
+    @include breakpoint($tablet-width) {
+      margin-right: 8px;
+      max-width: 32px;
+      width: 100%;
+    }
+  }
+  &__benefits-text {
+    font-family: $ms-500;
+    color: $color-light-black;
+    font-size: 0.75vw; /* 12px */
+    line-height: 1vw; /* 16px */
+    font-weight: 500;
+    @include breakpoint($tablet-width) {
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 }
@@ -149,20 +149,20 @@
     @include breakpoint($tablet-width) {
       font-size: 11.008px;
     }
-    &-circle {
-      display: inline-block;
-      width: 0.625vw; /* 10px */
-      height: 0.625vw; /* 10px */
+  }
+  &__online-circle {
+    display: inline-block;
+    width: 0.625vw; /* 10px */
+    height: 0.625vw; /* 10px */
+    background-color: $color-green;
+    border-radius: 50%;
+    margin-right: 0.875vw; /* 14px */
+    @include breakpoint($tablet-width) {
+      width: 10px;
+      height: 10px;
       background-color: $color-green;
       border-radius: 50%;
-      margin-right: 0.875vw; /* 14px */
-      @include breakpoint($tablet-width) {
-        width: 10px;
-        height: 10px;
-        background-color: $color-green;
-        border-radius: 50%;
-        margin-right: 14px;
-      }
+      margin-right: 14px;
     }
   }
   &__phone {
@@ -177,37 +177,35 @@
       padding-left: 30px;
       font-size: 18px;
     }
-    &-icon {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      width: 1.0625vw; /* 17px */
-      @include breakpoint($tablet-width) {
-        max-width: 17px;
-        width: 100%;
-      }
+  }
+  &__phone-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 1.0625vw; /* 17px */
+    @include breakpoint($tablet-width) {
+      max-width: 17px;
+      width: 100%;
     }
   }
 }
 /* end header */
 /* begin main */
-.main {
-  &-inner {
-    display: flex;
-    padding-top: 1vw; /* 16px */
-    padding-bottom: 3.25vw; /* 52px */
+.main-inner {
+  display: flex;
+  padding-top: 1vw; /* 16px */
+  padding-bottom: 3.25vw; /* 52px */
+  @include breakpoint($tablet-width) {
+    flex-wrap: wrap;
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+  .section-col {
+    width: 50%;
     @include breakpoint($tablet-width) {
       flex-wrap: wrap;
-      padding-top: 16px;
-      padding-bottom: 0;
-    }
-    .section-col {
-      width: 50%;
-      @include breakpoint($tablet-width) {
-        flex-wrap: wrap;
-        width: 100%;
-      }
+      width: 100%;
     }
   }
 }
@@ -227,14 +225,14 @@
       font-size: 20px;
       line-height: 32px;
     }
-    &-link {
-      text-decoration: none;
-      border-bottom: 0.0625vw dashed $color-red; /* 1px */
-      font-family: $berlin-EXbold-italic;
-      color: $color-light-black;
-      @include breakpoint($tablet-width) {
-        border-bottom: 1px dashed $color-red;
-      }
+  }
+  &__title-link {
+    text-decoration: none;
+    border-bottom: 0.0625vw dashed $color-red; /* 1px */
+    font-family: $berlin-EXbold-italic;
+    color: $color-light-black;
+    @include breakpoint($tablet-width) {
+      border-bottom: 1px dashed $color-red;
     }
   }
   &__btn {
@@ -267,9 +265,6 @@
       font-size: 16px;
       height: 60px;
     }
-    &-img {
-      position: absolute;
-    }
     .img-present {
       left: -1vw; /* -16px */
       top: -2vw; /* -32px */
@@ -295,37 +290,40 @@
         width: 60px;
       }
     }
-    &-discount {
-      display: inline-block;
-      width: 15.875vw; /* 254px */
-      height: 1.6875vw; /* 27px */
-      font-family: $berlin-bold-italic;
-      font-size: 0.93vw; /* 14.88px */
-      text-transform: capitalize;
-      color: $color-red;
-      padding-top: 0.3vw; /* 4.8px */
-      margin-top: 0.6875vw; /* 11px */
-      padding-left: 0.5vw; /* 8px */
-      padding-right: 0.5vw; /* 8px */
-      background-image: url("../img/form-small-white.png");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: contain;
-      @include breakpoint($tablet-width) {
-        max-width: 254px;
-        width: 100%;
-        height: 27px;
-        font-size: 14.88px;
-        padding-top: 4.8px;
-        margin-top: 11px;
-        padding-left: 8px;
-        padding-right: 8px;
-      }
-      @include breakpoint($mobile-width) {
-        font-size: 10px;
-        height: 19px;
-        padding-top: 2.8px;
-      }
+  }
+  &__btn-img {
+    position: absolute;
+  }
+  &__btn-discount {
+    display: inline-block;
+    width: 15.875vw; /* 254px */
+    height: 1.6875vw; /* 27px */
+    font-family: $berlin-bold-italic;
+    font-size: 0.93vw; /* 14.88px */
+    text-transform: capitalize;
+    color: $color-red;
+    padding-top: 0.3vw; /* 4.8px */
+    margin-top: 0.6875vw; /* 11px */
+    padding-left: 0.5vw; /* 8px */
+    padding-right: 0.5vw; /* 8px */
+    background-image: url("../img/form-small-white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    @include breakpoint($tablet-width) {
+      max-width: 254px;
+      width: 100%;
+      height: 27px;
+      font-size: 14.88px;
+      padding-top: 4.8px;
+      margin-top: 11px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    @include breakpoint($mobile-width) {
+      font-size: 10px;
+      height: 19px;
+      padding-top: 2.8px;
     }
   }
 }
@@ -380,36 +378,35 @@
       align-items: center;
       text-align: center;
     }
-    &-img {
-      width: 3.43vw; /* 54.88px */
-      height: 2.9375vw; /* 47px */
-      @include breakpoint($tablet-width) {
-        max-width: 54.88px;
-        width: 100%;
-        height: 47px;
-      }
+  }
+  &__item-img {
+    width: 3.43vw; /* 54.88px */
+    height: 2.9375vw; /* 47px */
+    @include breakpoint($tablet-width) {
+      max-width: 54.88px;
+      width: 100%;
+      height: 47px;
     }
-    &-title {
-      font-family: $berlin-EXbold-italic;
-      font-weight: 500;
-      font-size: 0.854vw; /* 13.664px */
-      margin: 0.625vw 0; /* 10px */
-      @include breakpoint($tablet-width) {
-        font-size: 13.664px;
-        margin: 10px 0;
-      }
+  }
+  &__item-title {
+    font-family: $berlin-EXbold-italic;
+    font-weight: 500;
+    font-size: 0.854vw; /* 13.664px */
+    margin: 0.625vw 0; /* 10px */
+    @include breakpoint($tablet-width) {
+      font-size: 13.664px;
+      margin: 10px 0;
     }
-
-    &-text {
-      font-family: $ms-100;
-      margin: 0;
-      color: $color-light-black;
-      font-weight: 100;
-      font-size: 0.666vw; /* 10.656px */
-      @include breakpoint($tablet-width) {
-        font-size: 10.656px;
-        margin: 10px 0;
-      }
+  }
+  &__item-text {
+    font-family: $ms-100;
+    margin: 0;
+    color: $color-light-black;
+    font-weight: 100;
+    font-size: 0.666vw; /* 10.656px */
+    @include breakpoint($tablet-width) {
+      font-size: 10.656px;
+      margin: 10px 0;
     }
   }
 }
@@ -433,9 +430,9 @@
       font-size: 18px;
       line-height: 48px;
     }
-    &-date {
-      font-family: $berlin-EXbold-italic;
-    }
+  }
+  &__title-date{
+    font-family: $berlin-EXbold-italic;
   }
 }
 .portfolio-tabs {
